@@ -1,7 +1,5 @@
 <div style="width: 100%;">
-  <a href="https://github.com/tiagorocha94/tiagorocha94/blob/main/intro.svg?short_path=fef869a">
-    <img src="./intro.svg" style="width: 100%;" alt="Click to see the source">
-  </a>
+  <img src="./intro.svg" style="width: 100%;" alt="Introduction">
 </div>
 
 <!--
