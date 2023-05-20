@@ -14,19 +14,21 @@
 
       .body {
         --color-main: #ff9b71;
-        --color-primary: #ff4444;
+        --color-primary: #44FF6F;
         --color-secondary: #e8e677;
         --color-background: #0d1117;
-        --color-link: #fef29e;
+        --color-link: #00ff91;
         --color-link-active: #ff4444;
 
-        height: 400px;
+        height: 300px;
+        
         width: 100%;
         text-transform: uppercase;
         display: flex;
         align-items: center;
         justify-content: center;
 
+        /* background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary)); */
         background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
         animation: border 5s linear infinite;
         background-size: 200% 200%;
@@ -91,23 +93,24 @@
       }
       h1 a:hover span,
       h1 a:focus span {
-        transition: transform 0.125s cubic-bezier(0.5, 0, 0.25, 2.5);
+        transition: transform 0.2s cubic-bezier(0.5, 0, 0.25, 2.5);
       }
       h1 a:hover span:nth-child(1),
       h1 a:focus span:nth-child(1) {
-        transform: translateX(1vw);
+        transform: translateX(.2vw);
       }
       h1 a:hover span:nth-child(3),
       h1 a:focus span:nth-child(3) {
-        transform: translateX(-1vw);
+        transform: translateX(-.2vw);
       }
 
       .items {
         margin-top: 24px;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: end;
         flex-direction: column;
+        width: 73%;
       }
       ul {
         font-size: 16px;
@@ -170,12 +173,12 @@
 
       @media (prefers-color-scheme: light) {
         .body {
-          --color-main: #9B5DE5;
-          --color-primary: #F15BB5;
-          --color-secondary: #00BBF9;
+          --color-main: #3e835e;
+          --color-primary: #3e4083;
+          --color-secondary: #833e62;
           --color-background: #ffffff;
-          --color-link: #00BBF9;
-          --color-link-active: #F15BB5;
+          --color-link: #833e62;
+          --color-link-active: #3e4083;
         }
       }
 
@@ -211,10 +214,10 @@
         </h1>
         <section class='items'>
           <ul>
-            <li>Software Engineer</li>
+            <li>Backend Engineer</li>
           </ul>
           <ul>
-            <li>at <a href="https://www.nfon.com/)">NFON</a></li>
+            <li>at <a href="https://www.nfon.com)">NFON</a></li>
           </ul>
         </section>
       </div>
